@@ -1,0 +1,17 @@
+transport:
+  rest:
+    port: 8080
+
+database:
+  engine: "sqlite"
+  sqlite:
+    db_name: "parking-lot"
+    max_idle_connection: 10
+    max_open_connection: 100
+    connection_max_idle_time_minutes: 5
+    connection_max_life_time_minutes: 60
+
+redis:
+  architecture: "embedded"
+  embedded:
+    engine: "sugardb"

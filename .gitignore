@@ -1,0 +1,25 @@
+# idea
+.idea
+.vscode
+
+# app specific vendor
+vendor
+stubby
+
+# log
+*debug.log
+*error.log
+*info.log
+/log
+
+# app
+/parking-lot
+
+# .out files
+*.out
+
+#db file
+*.db
+
+# misc
+.DS_Store
